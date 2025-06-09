@@ -1,0 +1,2 @@
+# Maize_Disease_Prediction_Using_Transfer_Learning_Techniques
+Maize leaf disease prediction
