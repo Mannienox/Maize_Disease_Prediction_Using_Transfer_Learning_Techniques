@@ -146,7 +146,7 @@ The repository is organized as follows:
 
 ├── Test/                       # Containing images for testing the model
 
-├── Maize leave disease detection    # A paper of the project
+├── Image Classification for Maize Disease Detection Using Transfer Learning.pdf    # A paper of the project
 
 ## Group Members
 
