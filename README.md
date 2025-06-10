@@ -112,7 +112,7 @@ This dataset contains images of maize leaves categorized into:
 
 -   **Architecture:** Fine-tuned ResNet50 (pre-trained on ImageNet).
 -   **Transfer Learning:** The backbone layers of ResNet50 were frozen, and a custom classification head was trained for the specific disease classes.
--   **Training:** The model was trained for [e.g., 10 epochs] using [e.g., Adam optimizer] with a learning rate of [e.g., 0.001].
+-   **Training:** The model was trained for 10 epochs using Adam optimizer with a learning rate of 0.001.
 -   **Framework:** PyTorch.
 
 ## Project Structure
