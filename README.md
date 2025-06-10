@@ -126,8 +126,6 @@ The repository is organized as follows:
 
 │   └── resnet50_10_epochs_adam_0_001.pth
 
-├── __init__.py             # Makes 'src' a Python package (can be empty)
-
 ├── app.py                  # Your Streamlit web application script
 
 ├── engine.py               # Functions for training and testing loops
@@ -144,7 +142,9 @@ The repository is organized as follows:
 
 ├── README.md                   # Project overview, setup, how-to-run, links, etc.
 
-└── requirements.txt            # List of all Python dependencies
+├── requirements.txt            # List of all Python dependencies
+├── Test/                       # Containing images for testing the model
+├── Maize leave disease detection    # A paper of the project
 
 ## Group Members
 
