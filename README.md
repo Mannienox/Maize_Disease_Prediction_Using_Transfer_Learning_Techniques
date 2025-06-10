@@ -143,7 +143,9 @@ The repository is organized as follows:
 ├── README.md                   # Project overview, setup, how-to-run, links, etc.
 
 ├── requirements.txt            # List of all Python dependencies
+
 ├── Test/                       # Containing images for testing the model
+
 ├── Maize leave disease detection    # A paper of the project
 
 ## Group Members
@@ -154,6 +156,9 @@ This project was developed as a collaborative effort by the following members fr
 -   Abdulazeez Ahmad
 -   Ibrahim Manasseh
 -   Ibrahim Hamza Maishanu
+
+## Contact
+mannienokson@gmail.com
 
 ## Acknowledgements
 
