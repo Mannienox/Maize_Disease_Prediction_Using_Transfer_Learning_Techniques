@@ -1,3 +1,4 @@
+
 from typing import Dict, List, Tuple
 from torch.utils.data import DataLoader
 from torchvision.transforms import transforms
@@ -6,7 +7,7 @@ import matplotlib.pyplot as plt
 import torch
 
 
-def predict_single (model, image, transform = None, labels = None):
+def predict_single (model, image, device, transform = None, labels = None):
 
 
     original_image = Image.open(image)
@@ -26,7 +27,7 @@ def predict_single (model, image, transform = None, labels = None):
         #Train Prediction
         pred = torch.softmax(pred_logits, dim = -1).argmax(dim = -1)
         pred_prob = torch.softmax(pred_logits, dim = -1).max().item()
-        
+
         if labels:
             pred = labels[pred.item()]
 
