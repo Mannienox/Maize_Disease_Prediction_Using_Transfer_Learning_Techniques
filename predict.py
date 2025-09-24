@@ -1,4 +1,3 @@
-
 from typing import Dict, List, Tuple
 from torch.utils.data import DataLoader
 from torchvision.transforms import transforms
@@ -18,10 +17,11 @@ def predict_single (model, image, device, transform = None, labels = None):
             transforms.ToTensor()
         ])
 
-    img = transform(original_image)
+    img = transform(original_image).to(device)
 
     model.eval()
     with torch.inference_mode():
+        model.to(device)
         pred_logits = model(img.unsqueeze(dim = 0))
 
         #Train Prediction

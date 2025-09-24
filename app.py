@@ -37,7 +37,7 @@ gemini_model = None
 try:
     gemini_api_key = "AIzaSyCtDAZOChhirBWa1GZ62vxedmGteMeOh_A"
     genai.configure(api_key=gemini_api_key)
-    gemini_model = genai.GenerativeModel('gemini-1.5-flash')
+    gemini_model = genai.GenerativeModel('gemini-2.5-flash')
 except Exception as e:
     pass
 
